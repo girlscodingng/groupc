@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SMAT : Contact</title>
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+                <a class="navbar-brand" href="#">SMAT</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input id="name" class="form-control" type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Email Address</label>
+                            <input id="email" class="form-control" type="email" required>
+                        </div>
+                        <div class="form-group">
+                                <label>Your Phone Number</label>
+                                <input id="number" class="form-control" type="number" required>
+                        </div>
+                        <div class="form-group">
+                                <label>Your Address</label>
+                                <textarea id="address" class="form-control" type="text" rows="2" required>
+                                </textarea>
+                        </div> 
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea id="message" class="form-control" type="text" rows="5" required>
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-info" name="send" value="Submit">
+                        </div>          
+                    </form>
+                </div>
+        
+        </section>
+                    
+        <footer class="footer">
+            <div class="fixed-bottom bottom">
+                <h3>This was designed by SMAT team</h3>
+            </div>
+        </footer>
+    </body>
+    <script src="cordova.js"></script>
+    <script src="assets/jquery.js"></script>
+    <script src="assets/bootstrap.min.js"></script> 
+    <script src="assets/app.js"></script> 
+</html>

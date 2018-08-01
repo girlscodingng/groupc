@@ -1,0 +1,22 @@
+footer{
+    margin-top: 100px;   
+}
+ footer .bottom{
+    background-color: grey;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    opacity: 0.8;
+}
+section img{
+    display: block;
+    margin: auto;
+}
+h2{
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+header{
+    margin-bottom: 70px;
+}
